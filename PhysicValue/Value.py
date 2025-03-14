@@ -11,7 +11,7 @@ class Value:
 
     def format(self, displayUnits: dict[str, int] = {}):
         """Convert Value to excact display units and base units."""
-        from Conversions import CONVERSIONS
+        from .Conversions import CONVERSIONS
         
         displayUnits = Unit(displayUnits)
         diff = (self.units / displayUnits).nonBaseUnits()

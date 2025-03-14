@@ -1,4 +1,4 @@
-from PhysicalObject import PhysicalObject  # Relative import for standalone execution
+from PhysicObject.PhysicalObject import PhysicalObject  # Relative import for standalone execution
 
 # Create a new physical object
 obj = PhysicalObject("Object")

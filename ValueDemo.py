@@ -1,4 +1,4 @@
-from .Measures import *
+from PhysicValue.Measures import *
 
 mass = 10 * kg  # Mass = 10kg
 acceleration = 2 * meter / sec ** 2  # Acceleration = 2m/s²
